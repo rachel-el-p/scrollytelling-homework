@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" href="styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+
+  <body>
+    <div class="text-content">
+      <h1>Why Steinway pianos are so expensive </h1>
+      <img src="Steinway_&_Sons_Grand_Piano.jpg" style="width:100%">
+      <p>
+        The first and only time I got to play on a Steinway was 13 years ago. It was during a high school recital, which the school held at a professional venue. It was nerve-wrecking and I cried after the performance over the mistakes I made, but at least I got to take the experience of playing <a href="https://www.youtube.com/watch?v=gSwsvPhzXfM">Piazzolla's 'Libertango'</a> (not me — these are pros) on a sonorous grand piano with me. 
+      </p>
+      <p>
+        I don't play anymore, mostly because I'm not good and so I get self-conscious when I hear the sound of my own playing — although this story about <a href="https://www.ft.com/content/bfc3b286-76ea-46da-990d-d8676284882e">amateurism</a> has encouraged me to return to it someday, and perhaps, get a second chance on a Steinway. 
+      </p>
+      <p>
+        What makes Steinway pianos so prized? It boils down to its craftsmanship. A Steinway piano takes about 11 months to finish, at their factories in either Astoria, Queens, or Hamburg, Germany. Much of the work still has to be done by hand to make sure the pianos meet their standards.
+        </p>
+        <p>The piano manufacturer was started in 1853 in a Lower Manhattan loft by German immigrant Henry Engelhard Steinway. He and his family made square grand pianos, and their reputation kept growing, particularly through trade fairs. The first Steinway piano was reportedly sold for $500, about <a href="https://www.officialdata.org/us/inflation/1850?amount=500">$20,000</a> today. The cost of its classic Model B grand piano is <a href="https://pianopricepoint.com/steinway-b-grand-piano/">about $135,000</a> today, with cheaper and more expensive models available. It makes upright pianos, which are more affordable — still another <a href="https://pianopricepoint.com/steinway-k-upright-piano/">$52,000</a> to part with — and its most expensive piano is worth <a href="https://luxury-pianos.com/the-most-expensive-pianos-in-the-world/">$2.5 million</a>. 
+        </p>
+        <p>Musicians like Billy Joel, Lang Lang, and Lady Gaga use Steinways. The late greats like Duke Ellington and Sergei Rachmaninoff as well. Concert halls buy Steinways to show they are a premier perfomance venue.
+        </p>
+      <p>
+        <em>The 3D piano model is not a Steinway but a generic grand piano from Sketchfab. Flügel means grand piano in German. There were no free Steinway 3D models on the site.</em>
+      </p>
+    </div>
+
+    <section class="scrolly" id="scroll-tween">
+      <div class="sticky-thing">
+        <!-- modelviewer stuff goes below this line -->
+
+        <model-viewer src="grand_piano.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls touch-action="pan-y" disable-zoom poster="poster.webp" shadow-intensity="1" camera-target="-0.2m 15.07m 4.78m" camera-orbit="42.01deg 64.96deg 119m" field-of-view="30deg"> </model-viewer>
+
+
+        <!-- modelviewer stuff goes above this line -->
+      </div>
+
+      <div class="scrolly-overlay">
+        <div class="step" id="step-one">
+          <p>Steinway pianos are one of the most expensive pianos in the world. Here's why.</p>
+        </div>
+        <div class="step" id="step-two">
+          <p>The soundboard — the heart of a piano — is made of Alaskan Sitka Spruce. Grains on the wood must be closely packed and straight. Each grain must have no more than a 15 degree slant. This helps the sound to travel more efficiently, so there is a longer, sustained tone when you hit a key. </p>
+        </div>
+        <div class="step" id="step-three">
+          <p>Long, continuous pieces of straight-grained rock maple are used to make the inner and outer rims. Rock maple is a dense, hard wood that doesn't absorb much sound, so it allows the sound to flow more freely. 
+             </p>
+        </div>
+        <div class="step" id="step-four">
+          <p>The strings that transmit the sound from key to soundboard through the bridges are strung manually. </p>
+        </div>
+        <div class="step" id="step-five">
+          <p>Each key's balance is checked manually using small weights. This ensures there is a consistent touch, and each key doesn't return too quickly or slowly when it's pressed. </p>
+        </div>
+        <div class="step" id="step-six">
+          <p>The keyboard must be fitted into the body precisely to make sure the hammers strike the strings at the exact spot.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-content">
+      <p>
+        Steinway's <a href="https://www.washingtonpost.com/entertainment/music/the-piano-keys-of-the-future/2015/09/03/9bbbbfee-354c-11e5-94ce-834ad8f5c50e_story.html">marketing prowress</a> has helped its pianos to remain sought after, but it isn't the only producer of high-end pianos. There are other brands like Bosendofor, Fazioli, and Baldwin. Kawai makes premium grand pianos under its founder Shigeru Kawai's name.
+      </p>
+      <p>
+        I found the information about Steinway through its official website and <a href="https://www.youtube.com/watch?v=jAInt7hIZlU">video</a>, Business Insider's <a href="https://www.youtube.com/watch?v=mnquWUItsVM">video on making Steinway pianos</a>, and Robb Report's <a href="https://robbreport.com/lifestyle/news/gallery/steinway-sons-factory-creates-some-of-the-worlds-greatest-pianos-2907489/04_rr_gaw_steinway-markings/">article on the company.</a>
+      </p>
+    </div>
+
+    <!-- Loads <model-viewer> for browsers: -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <script>
+      /* Scrollytelling code goes under here */
+
+      var viewer = document.querySelector("model-viewer")
+      let tween = null
+
+      /* This is an example of how a stepin works */
+      d3.select("#step-one").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "42.01deg 64.96deg 119m",
+          fieldOfView: "30deg",
+        })
+      })
+
+      d3.select("#step-two").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "98.21deg 146.5deg 92m",
+          fieldOfView: "19.05deg",
+        })
+      })
+
+      d3.select("#step-three").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "111.8deg 78.16deg 102.5m",
+          fieldOfView: "22.74deg",
+        })
+      })
+
+      d3.select("#step-four").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "120.1deg 44.32deg 69.13m",
+          fieldOfView: "12.96deg",
+        })
+      })
+
+      d3.select("#step-five").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "-0.1551deg 69.4deg 98.91m",
+          fieldOfView: "13.96deg",
+        })
+      })
+
+      d3.select("#step-six").on("stepin", function () {
+        tween = gsap.to(viewer, {
+          cameraTarget: "-0.2m 15.07m 4.78m",
+          cameraOrbit: "0.2528deg 68deg 174.2m",
+          fieldOfView: "18.57deg",
+        })
+      })
+
+      d3.selectAll(".step").on("stepout", function (event) {
+        tween = null
+      })
+
+      d3.selectAll(".step").on("progress", function (event) {
+        if (tween) {
+          tween.progress(event.detail.progress).play().pause()
+        }
+      })
+    </script>
+
+    <script>
+      const scroller = scrollama()
+
+      scroller
+        .setup({
+          step: "#scroll-tween .scrolly-overlay .step",
+          offset: 1.0,
+          debug: false,
+          progress: true,
+        })
+        .onStepProgress(function ({ element, index, progress }) {
+          const event = new CustomEvent("progress", { detail: { progress: progress } })
+          element.dispatchEvent(event)
+        })
+        .onStepEnter(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepin", { detail: { direction: direction } })
+          element.dispatchEvent(event)
+        })
+        .onStepExit(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepout", { detail: { direction: direction } })
+          element.dispatchEvent(event)
+        })
+    </script>
+
+    <script type="text/javascript">
+      // your code goes in here
+    </script>
+  </body>
+</html>
